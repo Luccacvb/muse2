@@ -1,0 +1,24 @@
+# Ignore arquivos e pastas do sistema
+__pycache__/
+*.py[cod]
+*.swp
+
+# Ignore virtual environments
+env/
+venv/
+*.env
+
+# Ignore logs e arquivos temporários
+*.log
+*.tmp
+*.bak
+
+# Ignore arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Ignore configurações específicas de IDEs/editores
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
