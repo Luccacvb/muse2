@@ -6,4 +6,5 @@ def bandpass_filter(data, low, high, fs):
     lowcut = low / nyquist
     highcut = high / nyquist
     b, a = butter(4, [lowcut, highcut], btype='band')
+    print('data', data) 
     return filtfilt(b, a, data, axis=1)
