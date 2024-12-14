@@ -1,4 +1,4 @@
-from signals.eeg import process_eeg, calculate_band_powers  # Import necessário
+from signals.eeg import process_eeg, calculate_band_powers
 import numpy as np
 import matplotlib.pyplot as plt
 from pylsl import StreamInlet, resolve_stream
